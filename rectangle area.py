@@ -10,8 +10,8 @@ try:
     else:
         y_measurement = int(input('Enter side Y in CM: '))
 
-        area_of_rectangle = x_measurement * y_measurement
+        rectangle_area = x_measurement * y_measurement
 
-        print("The area of the rectangle is: " + area_of_rectangle.__str__() + "cm²")
+        print("Rectangle area is : " + rectangle_area.__str__() + "cm²")
 except ValueError:
-    print ('enter a valid number with no letters.')
+    print ('enter a valid number.')
